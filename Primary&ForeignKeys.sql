@@ -43,3 +43,4 @@ SELECT o.order_id, u.username, o.product_name FROM orders o JOIN users u ON o.us
 -- user_id INT,
 -- FOREIGN KEY (user_id) REFERENCES users(user_id)
 -- );
+
